@@ -1,0 +1,36 @@
+{
+    "name": "high5sales/braintree",
+    "type": "project",
+    "description": "The Payum extension for Braintree",
+    "keywords": ["payment"],
+    "homepage": "http://payum.org",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "High5Sales",
+            "homepage": "https://github.com/high5sales/"
+        },
+        {
+            "name":     "Payum project",
+            "homepage": "http://payum.org/"
+        }
+    ],
+    "require": {
+        "payum/core": "^1.1.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.2"
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "autoload": {
+        "psr-0": { "High5Sales\\Braintree": "" }
+    },
+    "target-dir": "High5Sales/Braintree",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.2-dev"
+        }
+    }
+}
